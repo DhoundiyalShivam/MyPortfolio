@@ -1,0 +1,136 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    text-align: center;
+}
+.menuItems{
+    background-color: #382933;
+    border-bottom: 1px solid #eeee;
+    position: sticky;
+    top:0;
+}
+.menuItems ul{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+}
+.menuItems ul li{
+    list-style: none;
+    margin: 0px 20px;
+    color: #519872;
+    font-size: 18px;
+}
+.menuItems ul li a{
+    color: #519872;
+text-decoration: none;
+}
+/*Top section my details */
+.topSectionDetails{
+background-color:#382933 ;
+padding: 40px 0px;
+font-family: 'Ubuntu', sans-serif;
+}
+.topSectionDetails p{
+    padding: 20px 0px;
+}
+.name{
+    font-size: 50px;
+    color:#A4B494;
+}
+.myName img{
+    border-radius: 50%;
+}
+.brief1{
+    font-size: 20px;
+    color: #eeee;
+}
+.brief2{
+    font-size: 18px;
+    color: #eeee;
+    margin-bottom: 20px;
+}
+
+.exploreBtn >a{
+    background-color: #0e00009e;
+    color: #eeee;
+    padding: 15px 40px;
+    border: none;
+    font-size: 20px;
+    border-radius: 15px 5px;
+}
+/* About Section*/
+.aboutSection,.projectSection{
+    padding-top: 60px;
+}
+.aboutHeading,.projectHeading{
+font-size: 60px;
+margin:10px 0px
+} 
+.aboutDetailsSection{
+    display: flex;
+    padding: 50px 0px;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.aboutDetails{
+    width: 20%;
+    border: 1px solid;
+    padding: 10px;
+    border: 1px solid #eeee;
+}
+.aboutDetails img{
+    height: 5rem;
+    margin-bottom:20px ;
+}
+.aboutDetails h2{
+    margin-bottom: 20px;
+}
+.detailsAboutMe{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+}
+.whoAMI,.myTechSection{
+    flex-basis: 50%;
+}
+.whoAMI>img{
+    height: 40%;
+    border-radius: 40px 60px;
+}
+.whoAmIHeading,.myTechSectionHeading{
+    font-size: 2rem;
+    color:#382933
+}
+.myTechSection ul{
+    list-style: none;
+}
+.myTechSection ul li{
+    margin: 10px 0px;
+    border-bottom: 1px solid #eeee;
+}
+/* project section */
+.projectSection{
+    background-color: #eeee;
+}
+.projectsList ul {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    list-style: none;
+}
+.projectsList ul li a{
+    color:black;
+    margin: 0px 25px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.myProjects img{
+    width: 300px;
+}
+.myProjects{
+    display: flex;
+    flex-wrap: wrap;
+}
