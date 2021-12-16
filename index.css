@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 *{
     margin:0px;
     padding:0px;
@@ -61,10 +64,10 @@ font-family: 'Ubuntu', sans-serif;
     border-radius: 15px 5px;
 }
 /* About Section*/
-.aboutSection,.projectSection{
+.aboutSection{
     padding-top: 60px;
 }
-.aboutHeading,.projectHeading{
+.aboutHeading,.projectHeading,.contactHeading{
 font-size: 60px;
 margin:10px 0px
 } 
@@ -114,6 +117,7 @@ margin:10px 0px
 /* project section */
 .projectSection{
     background-color: #eeee;
+padding:60px 0px;
 }
 .projectsList ul {
     display: flex;
@@ -133,4 +137,40 @@ margin:10px 0px
 .myProjects{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
+/* Contact Section*/
+.contactMeSection{
+padding:60px 0px;
+background-color: #382933;
+}
+.contactMe{
+    color: #519872;
+}
+.contactMeIcons{
+    border-top: 1px solid #eeee;
+    padding-top: 40px;
+}
+input{
+    padding: 10px;
+    margin: 25px;
+    width: 30%;
+    /* text-align: left; */
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px 0px #519872;
+
+}
+
+button{
+    padding: 5px 20px;
+    color: #f1f1f1;
+    font-size: 16px;
+    background-color: #00000096;
+    box-shadow: 3px 2px 5px 0.5px #5198727a;
+    border-radius: 10px;
+}
+i{
+    color: #7f9b8c;
+    margin: 0px 10px;
+}
+
