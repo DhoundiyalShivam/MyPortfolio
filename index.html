@@ -97,8 +97,6 @@
                         <li>Java</li>
                         <li>Git</li>
                         <li>Azure</li>
-                        <li>Visual Studio Code</li>
-                        <li>Intelli J</li>
                         <li>Postman</li>
                     </ul>
 
@@ -110,13 +108,13 @@
             <p>Recent project I have worked upon</p>
             <div class="projectsList">
                 <ul>
-                    <li><a href="#">All</a></li>
-                    <li><a href="#">HTML/CSS</a></li>
-                    <li><a href="#">JavaScript</a></li>
-                    <li><a href="#">React</a></li>
+                    <li onclick='allProjects("all")'>All</li>
+                    <li onclick='allProjects("htmlCss")'>HTML/CSS</li>
+                    <li onclick='allProjects("js")'>JavaScript</li>
+                    <li onclick='allProjects("react")'>React</li>
                 </ul>
             </div>
-            <div class="myProjects">
+            <!-- <div class="myProjects">
                 <div class="singleProject">
                     <img src="blackjack.jpeg" alt="poker">
                     <p class="projectName">BlackJack Game</p>
@@ -137,7 +135,12 @@
                     <p class="projectName">Calculator</p>
                     <a href="#">Go to website</a>
                 </div>
-            </div>
+            </div> -->
+            <h1 id="all" class="display hide"> All</h1>
+            <h1 id ="htmlCss" class="hide">HTML/CSS</h1>
+            <h1 id ="js" class="hide">JS</h1>
+            <h1 id ="react" class="hide">React</h1>
+
         </div>
         <div class="contactMeSection" id="contact">
             <div class="contactMe">
@@ -155,6 +158,7 @@
         </div>
 
     </div>
+    <script src="./index.js"></script>
 </body>
 
 </html>
