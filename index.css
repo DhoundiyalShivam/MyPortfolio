@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Montserrat:wght@100&display=swap');
 html {
     scroll-behavior: smooth;
   }
@@ -22,18 +23,18 @@ html {
 .menuItems ul li{
     list-style: none;
     margin: 0px 20px;
-    color: #519872;
+    color: #e2e1e1;
     font-size: 18px;
 }
 .menuItems ul li a{
-    color: #519872;
+    color: #e2e1e1;
 text-decoration: none;
 }
 /*Top section my details */
 .topSectionDetails{
 background-color:#382933 ;
 padding: 40px 0px;
-font-family: 'Ubuntu', sans-serif;
+font-family: 'Montserrat', sans-serif;
 }
 .topSectionDetails p{
     padding: 20px 0px;
@@ -107,13 +108,36 @@ margin:10px 0px
     font-size: 2rem;
     color:#382933
 }
-.myTechSection ul{
+.myStack{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.singletech {
+    width: 25%;
+    margin: 1rem;
+    padding: 0.5rem;
+    box-shadow: 1px 1px 1px 1px #eee;
+    border-radius: 1rem;
+transition: all ease 0.5s;
+
+}
+.singletech:hover {
+box-shadow: 1px 1px 2px 1px #ababab;
+transition: all ease 0.5s;
+}
+.singletech img{
+    width: 20%;
+}
+
+/* .myTechSection ul{
     list-style: none;
 }
 .myTechSection ul li{
     margin: 10px 0px;
     border-bottom: 1px solid #eeee;
-}
+} */
 /* project section */
 .projectSection{
     background-color: #eeee;
@@ -154,20 +178,32 @@ background-color: #382933;
 }
 input{
     padding: 10px;
-    margin: 25px;
-    width: 30%;
+    margin: 10px;
+    width: 40%;
     /* text-align: left; */
     border-radius: 5px;
-    box-shadow: 3px 3px 6px 0px #519872;
+    box-shadow: 1px 1px 1px 0px #519872;
+    border: none;
+    outline: none;
+}
+textarea{
+    width: 40%;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 0px #519872;
+    outline: none;
+    border: none;
+    color: #519872;
+    padding: 10px;
+
 
 }
-
 button{
     padding: 5px 20px;
     color: #f1f1f1;
     font-size: 16px;
     background-color: #00000096;
-    box-shadow: 3px 2px 5px 0.5px #5198727a;
+    box-shadow: 1px 1px 1px 1px #5198727a;
     border-radius: 10px;
 }
 i{
@@ -180,4 +216,62 @@ i{
 }
 .display{
     display:block;
+}
+.displayProject{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.singleProject{
+    overflow: hidden;
+    width: 15%;
+    border-radius: 10px;
+    box-shadow: 3px 1px 6px 1px #b2c3ba;
+}
+.singleProject img{
+    max-width: 100%;
+}
+.singleProjectHeading{
+    color:#382933;
+    padding: 1rem 0rem;
+}
+.projectDescription{
+    color: black;
+    padding: 1rem 0.5rem;
+
+}
+.projectsLinks{
+    padding: 0.5rem ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.projectsLinks a{
+    text-decoration: none;
+    background-color: #0e00009e;
+    color: #eeee;
+    padding: 2px 5px;
+    border: none;
+    border-radius: 5px;
+}
+.bottomSec{
+    color: #519872;
+    padding: 1rem;
+}
+.resumeDiv{
+    position: fixed;
+    /* z-index: 9999; */
+    bottom: 50;
+    right:30;
+ 
+}
+
+.resumeDiv img{
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+
 }
