@@ -180,11 +180,15 @@ input{
     padding: 10px;
     margin: 10px;
     width: 40%;
-    /* text-align: left; */
+    background-color: #519872;
+    color:#eee;
     border-radius: 5px;
     box-shadow: 1px 1px 1px 0px #519872;
     border: none;
     outline: none;
+}
+input::placeholder,textarea::placeholder{
+    color:#eee;
 }
 textarea{
     width: 40%;
@@ -193,18 +197,21 @@ textarea{
     box-shadow: 1px 1px 1px 0px #519872;
     outline: none;
     border: none;
-    color: #519872;
+    background-color: #519872;
+    color:#7f9b8c;
     padding: 10px;
 
 
 }
 button{
-    padding: 5px 20px;
+    padding: 10px 25px;
     color: #f1f1f1;
     font-size: 16px;
     background-color: #00000096;
-    box-shadow: 1px 1px 1px 1px #5198727a;
+    border: none;
+    outline: none;
     border-radius: 10px;
+    margin: 1rem 0;
 }
 i{
     color: #7f9b8c;
@@ -268,7 +275,9 @@ i{
     right:30;
  
 }
-
+#form{
+    padding: 1rem 0;
+}
 .resumeDiv img{
     height: 80px;
     width: 80px;
